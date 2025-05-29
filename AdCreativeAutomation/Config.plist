@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>API</key>
+    <dict>
+        <key>OpenAI</key>
+        <dict>
+            <key>BaseURL</key>
+            <string>https://api.openai.com</string>
+        </dict>
+        <key>Facebook</key>
+        <dict>
+            <key>BaseURL</key>
+            <string>https://graph.facebook.com</string>
+        </dict>
+        <key>TikTok</key>
+        <dict>
+            <key>BaseURL</key>
+            <string>https://business-api.tiktok.com</string>
+        </dict>
+    </dict>
+    <key>Features</key>
+    <dict>
+        <key>MaxConcepts</key>
+        <integer>3</integer>
+        <key>MaxCreativesPerCampaign</key>
+        <integer>10</integer>
+    </dict>
+</dict>
+</plist> 
